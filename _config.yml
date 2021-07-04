@@ -16,8 +16,8 @@
 title: 菠萝味阳光sound
 description: > # this means to ignore newlines until "baseurl:"
   <b>点击左上"☰"菜单或轻滑屏幕左侧查看更多</b>.
-baseurl: "blogwangli.github.io"
-url: "https://sunshine0608.github.io/"
+baseurl: "/blogwangli.github.io"
+url: "https://sunshine0608.github.io"
 permalink: /:year/:month/:day/:title
 repository: sunshine0608/blogwangli.github.io
 paginate: 4
