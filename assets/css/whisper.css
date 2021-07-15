@@ -27,6 +27,9 @@ p.pp{
     text-align: justify;
     margin-bottom: 16px;
 }
+.s-bold{
+    font-weight: bold;
+}
 .s-index{
     text-align: center;
     font-size: 22px;
