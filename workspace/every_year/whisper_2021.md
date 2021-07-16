@@ -29,6 +29,6 @@ css: ["whisper.css"]
 <p class='pp'><b>我心中有一簇迎着烈日而生的花，比一切美酒都要芬芳，滚烫的馨香淹没稻草人的胸膛，草扎的精神，从此万寿无疆。</b></p>
 <p class='pp'><b>我心中有一簇迎着烈日而生的花，比一切美酒都要芬芳，滚烫的馨香淹没稻草人的胸膛，草扎的精神，从此万寿无疆。</b></p>
 <p class='pp'><b>......</b></p>
-<p class='pp'><b>一封致歉信：我有时候恃才傲物，有时候极度内敛，有些时候自傲，有些时候自卑，有些时候痴人说梦，讲话分不清场合，没有分寸，像极了电影里被所有人嗤之以鼻的小丑，谈话间若是有些你反感的，请不要往心里去。就当我说错了，或是不太合适什么的，如果有，我表示很抱歉。</b></p>
+<p class='pp'><b>一封加密信：<br>'0x3c9acdaacd771929295c529'，<br>'0x8cbf3f7d5faae3acb3cfeeae3c'，<br>'0x4effc5d2881961e0ae62'，<br>'0x8b120cc0a91edade03a7'。<br></b></p>
 <p class='pp'>feel free to <b>add</b> anything here.</p>
 <p class='pp'>feel free to <b>delete</b> everything here.</p>

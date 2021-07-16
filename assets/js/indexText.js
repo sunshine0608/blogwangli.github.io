@@ -56,7 +56,6 @@
 
     function layoutText() {
         const text = '汪小莉生日快乐';
-        // const text = 'FE';
         fontSize = 160;
         textWidth = 99999999;
 
