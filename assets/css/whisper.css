@@ -27,6 +27,19 @@ p.pp{
     text-align: justify;
     margin-bottom: 16px;
 }
+.s-link{
+    text-align: center;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #cccccc;
+    background: #f8f8f8;
+    box-shadow: #e5e5e5 -1px 5px 7px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+    color: #3f3e3f;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
 .s-bold{
     font-weight: bold;
 }

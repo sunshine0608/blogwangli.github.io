@@ -24,7 +24,7 @@ paginate: 4
 
 # MatJek specific configurations
 user: "sunshineli"
-user_email: "sunshine@gmail.com"
+user_email: "xiaoli@gmail.com"
 
 # Build settings
 markdown: kramdown
