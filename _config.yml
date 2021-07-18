@@ -41,3 +41,12 @@ sass:
 future: true
 port: 8080
 dist: trusty
+valine_comment:
+  enable: true
+# app_id
+  leancloud_appid: PXo7KSBu5BdHN1i7hjXhv7KF-gzGzoHsz 
+# app_key
+  leancloud_appkey: mlBV2UzXmgWJuT5wOFDWFkBh
+# placeholde
+  placeholder: "feel free comments here"
+  guest_info: nick,mail
