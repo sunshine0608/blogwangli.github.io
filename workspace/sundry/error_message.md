@@ -3,7 +3,7 @@ layout: page
 css: ["whisper.css"]
 ---
 
-<h1><span class="section-number">1.1. </span>Error messages and Explanation</a></h1>
+<h1>1.1. </span>Error messages and Explanation</h1>
 
 <hr class="docutils" />
 <dl class="simple">
