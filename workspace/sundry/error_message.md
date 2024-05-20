@@ -3,7 +3,7 @@ layout: page
 css: ["whisper.css"]
 ---
 
-<h2>1.1. Error messages and Explanation</h2>
+<h3>1.1. Error messages and Explanation</h3>
 <hr class="docutils" />
 <dl class="simple">
 <dt><em><b>40802-410 set battery run mode failed</b></em></dt><dd><p>
