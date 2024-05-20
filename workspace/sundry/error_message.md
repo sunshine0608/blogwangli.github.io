@@ -54,7 +54,7 @@ css: ["whisper.css"]
 <dt><em><b>42301-280 CANoe sec tick failed, check Network, CANAutomation</b></em></dt><dd><p>
     复测：判断是物理网络连接还是无线连接问题后，进行复测<br>
     说明：UNIPAS电脑通过固定端口给Elook电脑中的CNAoe软件发送命令来启动计时器模块，两者之间的通讯存在问题.<br>
-    分析：使用 <a href="{{site.baseurl}}/workspace/sundry/2024-05-20-iperf3.md" style="color: #FF8000;">iperf3工具</a> 进行网络连接检测，若运行失败，需要检查两台电脑之间的网线连接。若运行成功，但丢包率较高，则为无线连接问题<br>
+    分析：使用 <a href="2024-05-20-iperf3.md" style="color: #FF8000;">iperf3工具</a> 进行网络连接检测，若运行失败，需要检查两台电脑之间的网线连接。若运行成功，但丢包率较高，则为无线连接问题<br>
     返修：无.</p>
 </dd>
 <dt><em><b>40301-140 Error in fault memory</b></em></dt><dd><p>
