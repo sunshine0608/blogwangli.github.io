@@ -39,7 +39,7 @@ css: ["whisper.css"]
 <dt><em><b>40092-340,360 42402-340,360 The initial switch counter is lower than limit</b></em></dt><dd><p>
     复测：否<br>
     说明：读取电池初始继电器次数，数值低于下限.<br>
-    分析：使用CANoe软件中的 <font color="#0000FF"><i><a href="/_post/iperf3.md">ContactorAgingRemainRead</a></i></font> 查看发现电柜中控制电流输入的四个开关存在问题，更换开关后问题解决.<br>
+    分析：使用CANoe软件中的 <a href="2024-05-21-change_counter" style="color: #FF8000;">Contactor remain read</a> 查看发现电柜中控制电流输入的四个开关存在问题，更换开关后问题解决.<br>
     返修：无.</p>
 </dd>
 <dt><em><b>42301-280 CANoe sec tick failed, check Zenzefi license</b></em></dt><dd><p>
