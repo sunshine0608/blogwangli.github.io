@@ -1,7 +1,50 @@
-<html class="writer-html5" lang="en" >
+<html lang="en">
 <head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<h1>General commands<a class="headerlink" href="#general-commands" title="Link to this heading"></a></h1>
+	<meta charset="UTF-8">
+	<title>制作发光文字</title>
+	<style type="text/css">
+		.box{
+		   margin:20px auto; /*设置元素外边距*/
+		   text-align: center;
+		}
+		.shine{
+		   font-size:3em; /*设置字体大小*/
+		   font-weight:bolder; /*设置字体粗细*/
+		   color:#FFFFFF; /*设置文字颜色*/
+		   cursor:pointer; /*设置光标形状*/
+		   -webkit-animation:light 1.5s ease-in-out infinite alternate;/*设置动画*/
+		}
+		@-webkit-keyframes light{/*创建动画*/
+		   from{
+		       text-shadow:0 0 10px #0e0101a0,
+		                      0 0 20px #fff,
+		                      0 0 30px #fff,
+		                      0 0 40px #0000FF,
+		                      0 0 70px #0000FF,
+		                      0 0 80px #0000FF,
+		                      0 0 100px #0000FF
+		   }
+		   to{
+		       text-shadow:0 0 5px #100101,
+		                      0 0 10px #fff,
+		                      0 0 15px #fff,
+		                      0 0 20px #0000FF,
+		                      0 0 35px #0000FF,
+		                      0 0 40px #0000FF,
+		                      0 0 50px #0000FF
+		   }
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box">
+   		<a class="shine">General Commands of EOL Test</a>
+	</div>
+</body>
+</html>
+
 <p>This is the detailed description of every test step of EOL test sequence</p>
 
 
