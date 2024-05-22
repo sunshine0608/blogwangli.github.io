@@ -1,29 +1,77 @@
-<div class="col s12 tag-div">
-  <div class="tag-list">
-    {% for tag in site.tags %}
-    {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
-    {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
-    <a class="tag-chip" href="#{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">
-      <div class="chip z-depth-1">{{tag[0]}}</div>
-    </a>
-    {% endfor %}
-  </div>
-  <div class="divider"></div>
-  <div class="tag-index">
-    {% for tag in site.tags %}
-    {% capture test %}{{tag[0] | slice: 0}}{% endcapture %}
-    {% capture testup %}{{tag[0] | slice: 0 | upcase}}{% endcapture %}
-    <h4 id="{{tag[0] | slugify}}{% if test == testup %}_cap{% endif %}">{{tag[0]}}</h4>
-    <ul class="tag-post">
-      {% for post in tag[1] %}
-      <a class="post-title" href="{{site.baseurl}}{{post.url}}" target="_blank">
-        <li>
-          {{post.title}}
-          <small class="post-date">{{post.date | date_to_string}}</small>
-        </li>
-      </a>
-      {% endfor %}
-    </ul>
-    {% endfor %}
-  </div>
-</div>
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<h1>General commands<a class="headerlink" href="#general-commands" title="Link to this heading"></a></h1>
+<p>This is the detailed description of every test step of EOL test sequence</p>
+
+
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="angle_coeff.html"><span class="doc">40010</span></a></p></td>
+<td><p><a class="reference internal" href="angle_style.html"><span class="doc">40012</span></a></p></td>
+<td><p><a class="reference internal" href="angle_write.html"><span class="doc">40020</span></a></p></td>
+<td><p><a class="reference internal" href="atom_modify.html"><span class="doc">40021</span></a></p></td>
+<td><p><a class="reference internal" href="atom_style.html"><span class="doc">40022</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="balance.html"><span class="doc">40023</span></a></p></td>
+<td><p><a class="reference internal" href="bond_coeff.html"><span class="doc">40024</span></a></p></td>
+<td><p><a class="reference internal" href="bond_style.html"><span class="doc">40041</span></a></p></td>
+<td><p><a class="reference internal" href="bond_write.html"><span class="doc">40042</span></a></p></td>
+<td><p><a class="reference internal" href="boundary.html"><span class="doc">40043</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="change_box.html"><span class="doc">40044</span></a></p></td>
+<td><p><a class="reference internal" href="clear.html"><span class="doc">40046</span></a></p></td>
+<td><p><a class="reference internal" href="comm_modify.html"><span class="doc">40060</span></a></p></td>
+<td><p><a class="reference internal" href="comm_style.html"><span class="doc">40061</span></a></p></td>
+<td><p><a class="reference internal" href="compute.html"><span class="doc">40070</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="compute_modify.html"><span class="doc">40081</span></a></p></td>
+<td><p><a class="reference internal" href="create_atoms.html"><span class="doc">40099</span></a></p></td>
+<td><p><a class="reference internal" href="create_bonds.html"><span class="doc">40100</span></a></p></td>
+<td><p><a class="reference internal" href="create_box.html"><span class="doc">40150</span></a></p></td>
+<td><p><a class="reference internal" href="delete_atoms.html"><span class="doc">40092</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="delete_bonds.html"><span class="doc">40202</span></a></p></td>
+<td><p><a class="reference internal" href="dielectric.html"><span class="doc">40301</span></a></p></td>
+<td><p><a class="reference internal" href="dihedral_coeff.html"><span class="doc">40401</span></a></p></td>
+<td><p><a class="reference internal" href="dihedral_style.html"><span class="doc">40062</span></a></p></td>
+<td><p><a class="reference internal" href="dihedral_write.html"><span class="doc">40423</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="dimension.html"><span class="doc">40432</span></a></p></td>
+<td><p><a class="reference internal" href="displace_atoms.html"><span class="doc">40501</span></a></p></td>
+<td><p><a class="reference internal" href="dump.html"><span class="doc">40601</span></a></p></td>
+<td><p><a class="reference internal" href="dump_modify.html"><span class="doc">40701</span></a></p></td>
+<td><p><a class="reference internal" href="echo.html"><span class="doc">40001</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="fix.html"><span class="doc">40802</span></a></p></td>
+<td><p><a class="reference internal" href="fix_modify.html"><span class="doc">40902</span></a></p></td>
+<td><p><a class="reference internal" href="group.html"><span class="doc">41002</span></a></p></td>
+<td><p><a class="reference internal" href="if.html"><span class="doc">41110</span></a></p></td>
+<td><p><a class="reference internal" href="improper_coeff.html"><span class="doc">41103</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="improper_style.html"><span class="doc">41201</span></a></p></td>
+<td><p><a class="reference internal" href="include.html"><span class="doc">41300</span></a></p></td>
+<td><p><a class="reference internal" href="info.html"><span class="doc">41400</span></a></p></td>
+<td><p><a class="reference internal" href="jump.html"><span class="doc">41500</span></a></p></td>
+<td><p><a class="reference internal" href="kspace_modify.html"><span class="doc">41700</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="kspace_style.html"><span class="doc">41600</span></a></p></td>
+<td><p><a class="reference internal" href="label.html"><span class="doc">41800</span></a></p></td>
+<td><p><a class="reference internal" href="labelmap.html"><span class="doc">41850</span></a></p></td>
+<td><p><a class="reference internal" href="lattice.html"><span class="doc">41900</span></a></p></td>
+<td><p><a class="reference internal" href="log.html"><span class="doc">42000</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="mass.html"><span class="doc">42100</span></a></p></td>
+<td><p><a class="reference internal" href="minimize.html"><span class="doc">42202</span></a></p></td>
+<td><p><a class="reference internal" href="min_modify.html"><span class="doc">42301</span></a></p></td>
+<td><p><a class="reference internal" href="min_style.html"><span class="doc">42211</span></a></p></td>
+<td><p><a class="reference internal" href="molecule.html"><span class="doc">42402</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="neigh_modify.html"><span class="doc">42501</span></a></p></td>
+<td><p><a class="reference internal" href="neighbor.html"><span class="doc">42550</span></a></p></td>
+<td><p><a class="reference internal" href="newton.html"><span class="doc">42600</span></a></p></td>
+<td><p><a class="reference internal" href="next.html"><span class="doc">49999</span></a></p></td>
+</tr>
+</tbody>
+</table>
