@@ -95,7 +95,7 @@ Step 7. 确认更改成功后，进行下电
 
 <div class="divider"></div>
 
-<p class="s-footer">🍍</a> 代码是我生命的一部分，但咖啡是我的灵魂。</p>
+<p class="s-footer">🍍 代码是我生命的一部分，但咖啡是我的灵魂。</p>
 
 *---Created by Wang Xiaoli*
 <!-- <p>请随意删除。 feel free to delete this page. add by wangxiaoli</p> -->
