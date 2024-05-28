@@ -8,7 +8,30 @@ css: ["whisper.css"]
       <div class="card hoverable" style="background: #dbdbdb">
         <div class="card-content"
           style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:16px">
-            <a href="{{site.baseurl}}/workspace/every_year/whisper_2021" style="color: #FF8000;">2021年琐事本</a>
+            <a href="{{site.baseurl}}/workspace/every_year/EOL1" style="color: #FF8000;">EOL1相关问题，请点击这里</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+      <div class="card hoverable" style="background: #dbdbdb">
+        <div class="card-content"
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:16px">
+            <a href="{{site.baseurl}}/workspace/every_year/EOL2" style="color: #FF8000;">EOL2相关问题，请点击这里</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col s12">
+      <div class="card hoverable" style="background: #dbdbdb">
+        <div class="card-content"
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+            <a href="{{site.baseurl}}/workspace/every_year/EOL3" style="color: #FF8000;">EOL3相关问题，请点击这里</a>
         </div>
       </div>
   </div>
@@ -19,16 +42,33 @@ css: ["whisper.css"]
       <div class="card hoverable" style="background: #dbdbdb">
         <div class="card-content"
           style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
-            <a href="{{site.baseurl}}/workspace/every_year/whisper_2020" style="color: #FF8000;">上一年 2020年</a>
+            <a href="{{site.baseurl}}/workspace/every_year/EOL4" style="color: #FF8000;">EOL4相关问题，请点击这里</a>
         </div>
       </div>
   </div>
 </div>
 
-                        
-<p class='pp'><b>人死了就像水消失在水中。</b></p>
-<p class='pp'><b>人死了就像水消失在水中。</b></p>
-<p class='pp'>......</p>
-<p class='pp'>一封加密信：<br>'0x3c9acdaacd771929295c529',<br>'0x8cbf3f7d5faae3acb3cfeeae3c',<br>'0x4effc5d2881961e0ae62',<br>'0x8b120cc0a91edade03a7'。<br></p>
+<div class="row">
+  <div class="col s12">
+      <div class="card hoverable" style="background: #dbdbdb">
+        <div class="card-content"
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+            <a href="{{site.baseurl}}/workspace/every_year/EOL5" style="color: #FF8000;">EOL5相关问题，请点击这里</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12">
+      <div class="card hoverable" style="background: #dbdbdb">
+        <div class="card-content"
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+            <a href="{{site.baseurl}}/workspace/every_year/EOL6" style="color: #FF8000;">EOL6相关问题，请点击这里</a>
+        </div>
+      </div>
+  </div>
+</div>
+
 <p class='pp'>feel free to <b>add</b> anything here.</p>
 <p class='pp'>feel free to <b>delete</b> everything here.</p>
