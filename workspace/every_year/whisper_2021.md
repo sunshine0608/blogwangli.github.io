@@ -31,7 +31,7 @@ css: ["whisper.css"]
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
         <div class="card-content"
-          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:16px">
             <a href="{{site.baseurl}}/workspace/every_year/EOL3" style="color: #FF8000;">EOL3相关问题，请点击这里</a>
         </div>
       </div>
@@ -43,7 +43,7 @@ css: ["whisper.css"]
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
         <div class="card-content"
-          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:16px">
             <a href="{{site.baseurl}}/workspace/every_year/EOL4" style="color: #FF8000;">EOL4相关问题，请点击这里</a>
         </div>
       </div>
@@ -76,4 +76,3 @@ css: ["whisper.css"]
 
 <p class='pp'>feel free to <b>add</b> anything here.</p>
 <p class='pp'>feel free to <b>delete</b> everything here.</p>
-
