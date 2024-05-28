@@ -55,7 +55,7 @@ css: ["whisper.css"]
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
         <div class="card-content"
-          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:16px">
             <a href="{{site.baseurl}}/workspace/every_year/EOL5" style="color: #FF8000;">EOL5相关问题，请点击这里</a>
         </div>
       </div>
@@ -67,7 +67,7 @@ css: ["whisper.css"]
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
         <div class="card-content"
-          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:6px;margin-top: -34px;">
+          style="text-align: center;margin: -5px;font-weight: 600;font-optical-sizing: inherit;padding:16px">
             <a href="{{site.baseurl}}/workspace/every_year/EOL6" style="color: #FF8000;">EOL6相关问题，请点击这里</a>
         </div>
       </div>
