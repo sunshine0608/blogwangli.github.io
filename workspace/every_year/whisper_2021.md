@@ -14,6 +14,7 @@ css: ["whisper.css"]
   </div>
 </div>
 
+
 <div class="row">
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
@@ -37,6 +38,7 @@ css: ["whisper.css"]
   </div>
 </div>
 
+
 <div class="row">
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
@@ -48,6 +50,7 @@ css: ["whisper.css"]
   </div>
 </div>
 
+
 <div class="row">
   <div class="col s12">
       <div class="card hoverable" style="background: #dbdbdb">
@@ -58,6 +61,7 @@ css: ["whisper.css"]
       </div>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col s12">
