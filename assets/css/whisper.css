@@ -73,12 +73,12 @@ p.pp{
 .button1{
     background: linear-gradient(       
         45deg,       
-        #f9d9e7,        
-        #ff1493    
+        #f5d5e3,        
+        #1f73d3    
     );
     border: none;
     border-radius: 12px;
-    color:white;
+    color:rgb(255, 255, 255);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
