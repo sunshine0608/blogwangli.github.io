@@ -71,7 +71,7 @@ p.pp{
     font-weight: 600;
 }
 /* 悬停添加箭头图标 */
-   .Button1 {
+   .button1 {
         display: inline-block;
         border-radius: 20px;
         background-color: #f4511e;
@@ -87,13 +87,13 @@ p.pp{
         margin: 5px;
         vertical-align: middle;
       }
-      .Button1 span {
+      .button1 span {
         cursor: pointer;
         display: inline-block;
         position: relative;
         transition: 0.5s;
       }
-      .Button1 span::after {
+      .button1 span::after {
         content: ">";
         position: absolute;
         opacity: 0;
@@ -101,10 +101,10 @@ p.pp{
         right: -20px;
         transition: 0.5s;
       }
-      .Button1:hover span {
+      .button1:hover span {
         padding-right: 30px;
       }
-      .Button1:hover span::after {
+      .button1:hover span::after {
         opacity: 1;
         right: 0;
       }
