@@ -70,41 +70,27 @@ p.pp{
     font-size: 1em;
     font-weight: 600;
 }
-/* 悬停添加箭头图标 */
-   .button1 {
-        display: inline-block;
-        border-radius: 20px;
-        background-color: #f4511e;
-        border: none;
-        color: #ffff;
-        text-align: center;
-        font-size: 28px;
-        font-weight: 400;
-        padding: 18px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-        vertical-align: middle;
-      }
-      .button1 span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      .button1 span::after {
-        content: ">";
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      .button1:hover span {
-        padding-right: 30px;
-      }
-      .button1:hover span::after {
-        opacity: 1;
-        right: 0;
-      }
+.button1{
+    background: linear-gradient(       
+        45deg,       
+        #f9d9e7,        
+        #ff1493    
+    );
+    border: none;
+    border-radius: 12px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),
+    0 17px 50px 0 rgba(0,0,0,.19);
+}
+
