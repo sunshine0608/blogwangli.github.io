@@ -70,33 +70,21 @@ p.pp{
     font-size: 1em;
     font-weight: 600;
 }
-.button1{
-  position: relative;
-  padding:  20px 40px;
-  font-size: 1.4rem;
-  background-color: #00b3b4;
-  background-size: 46px 26px;
-  border: 1px solid #555;  
-  color: white;
-  transition: all ease 0.3s;
-}
-
-.button1::after{
-  position: absolute;
-  top: 50%;
-  right: 0.6em;
-  transform: translateY(-50%);
-  content: "»";
-  font-size: 1.2em;
-  transition: all ease 0.3s;
-  opacity: 0;
-}
-
-.button1:hover{
-  padding: 20px 60px 20px 20px;
-}
-
-.button1:hover::after{
-  right: 1.2em;
-  opacity: 1;
+.button1{    
+    background: linear-gradient(                
+        -135deg,               
+        transparent 22px,                
+        #04e6fb 22px,                
+        #65ff9a 100%            
+    )            
+        top right,        
+        linear-gradient(               
+            -45deg,                
+            transparent 22px,                
+            #04e6fb 22px,                
+            #65ff9a 100%            
+        )            
+        bottom right;    
+    background-size: 100% 50%;    
+    background-repeat: no-repeat;
 }
