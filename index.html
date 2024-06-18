@@ -4,6 +4,7 @@ layout: page
 
 <!DOCTYPE html>
 <html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +17,13 @@ layout: page
         header{
             background: linear-gradient(to left, rgba(215, 92, 153, 0.758), rgba(68, 132, 222, 0.5) 50%,rgba(0, 0, 0, 0)), url(https://pic.imgdb.cn/item/6662c7c05e6d1bfa0507abc1.webp);
             height: 100vh;
+            left: 30px;
             background-size: cover;
             background-position: center;
         }
         .title{
             position: absolute;
-            top:30%;
+            top:37%;
             left:50%;
             transform: translate(-50%,-50%);
         }
@@ -55,9 +57,9 @@ layout: page
         text-align: center;
         border:1px transparent solid;
         border-image:linear-gradient(to right,#ffffff,#23b7cb) 1 10;
-     	}
+     	  }
         .btn:hover{
-            background-color: rgb(1, 13, 27);
+        background-color: rgb(1, 13, 27);
         }
         .text-1{
             position: absolute;
@@ -106,20 +108,21 @@ layout: page
 
 <!--我是分割线-->
 <body>
-    <div class="header">
+    <header>
         <div class="title">
             <h1>Technology and Maintenance.</h1>
             <h2>Ensure the stability of the EBx battery production, created by Maint. and Tech. office.</h2>
             <h2>More than knowledges sharing.</h2>
         </div>
         <div onclick="scrollToView()">
-            <button class="btn">Click here to read more <<< </button>
+            <button class="btn">Click here to read more</button>
         </div>
         <div class="text-1">
         Battery Plant in BBAC
         </div>
-    </div>
+    </header>
 </body>
+</head>
 
 <br></br>
 <!--------------------------正文--------------------------------->
