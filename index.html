@@ -1,228 +1,204 @@
----
-layout: page
----
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            font-family:"CorpoA";
-        }
-        header{
-            background: linear-gradient(to left, rgba(215, 92, 153, 0.758), rgba(68, 132, 222, 0.5) 50%,rgba(0, 0, 0, 0)), url(https://pic.imgdb.cn/item/6662c7c05e6d1bfa0507abc1.webp);
-            height: 100vh;
-            background-size: cover;
-            background-position: 30% 50%;
-        }
-        .title{
-            position: absolute;
-            top:37%;
-            left:45%;
-            transform: translate(-50%,-50%);
-        }
-        .title h1{
-            color: #fff;
-            font-size: 30px;
-            max-width: 500px;
-            font-family: "Times New Roman";
-        }
-        .title h2{
-            color:#fff;
-            font-size: 15px;
-            max-width: 500px;
-            line-height: 20px;
-            font-family:'Arial Narrow', Arial;
-        }
-        .btn{
-            position: absolute;
-            top: 55%;
-            left: 34%;
-            font-size: 10px;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            background-color: rgba(5, 42, 94, 0.4);
-            color: white;
-            width: 200px;
-            height: 40px;
-            line-height: 40px
-            padding: 12px 24px;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-            border:1px transparent solid;
-            border-image:linear-gradient(to right,#ffffff,#23b7cb) 1 10;
-     	  }
-        .btn:hover{
-            background-color: rgb(1, 13, 27);
-        }
-        .text-1{
-            position: absolute;
-            top:95%;
-            left:86%;
-            color:#fff;
-            font-size: 10px;
-        }
-        .s-container {
-            width: 1000px;
-            left: 30%;
-        }
-        .s-title{
-            display: inline-block;
-            position: absolute;
-            left: 260px;
-            text-align: left;
-            font-size: 30px;
-            font-family: "MBCorpo Text";
-            font-weight: bold;
-            max-width: 600px;
-            line-height: 40px;
-        }
-        .content{
-            position: absolute;
-            left: 260px;
-            font-size: 18px;
-            font-family: "MBCorpo Text";
-            max-width: 500px;
-            line-height: 50px;
-        }
-        img {
-            transition: filter 0.5s;
-        }
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        img:hover {
-            filter: brightness(130%);
-        }
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    </style>
+        <title>Kool Form Pack | Login page</title>
 
-<!--实现页面内部定向跳转-->
-<script type="text/javascript">
-    function scrollToView () {
-        document.getElementById('A1').scrollIntoView({
-            block: 'start', // Scroll to the top of the element
-            inline: 'nearest',
-            behavior: 'smooth'
-        });
-    }
-</script>
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!--我是分割线-->
-<body>
-    <div class="header">
-        <div class="title">
-            <h1>Technology and Maintenance.</h1>
-            <h2>Ensure the stability of the EBx battery production, created by Maint. and Tech. office.</h2>
-            <h2>More than knowledges sharing.</h2>
-        </div>
-        <div onclick="scrollToView()">
-            <button class="btn">Click here to read more</button>
-        </div>
-        <div class="text-1">
-        Battery Plant in BBAC
-        </div>
-    </div>
-</body>
-</head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<br></br>
-<!--------------------------正文--------------------------------->
-<div class="s-container">
-    <div class="s-title">
-        <div id="A1">This is a website to share professional knowledges of battery test.
-        </div>
-    </div>
-</div>
-<br></br>
-<br></br>
-<br></br>
-<div class="content">
-Please fill the content here
-</div>
-<br></br>
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
 
+        <link href="css/tooplate-kool-form-pack.css" rel="stylesheet">
+<!--
 
-<!-----------------------------------我是分割线------------------------------>
+Tooplate 2136 Kool Form Pack
 
-<body style="margin:0; padding:0;">
-    <div id="container" style="background:linear-gradient(to left, rgb(0, 0, 0, 0.7), rgba(58, 90, 137, 0.5)); height: 1100px;">
-        <div id="contact" style="position: relative; left: 50px; top: 40px; font-size: 30px; color: #000000;">
-            Technical Contact
-        <!-----------------------------穆老师个人简介------------------------------------->
-            <img class=img style="width:13%; position:absolute; left:10px; top:100px;" src="https://pic.imgdb.cn/item/666ab3d3d9c307b7e967a1dc.png">
-                <div id="contact1" style="position: relative; left: 15px; top: 220px; font-size: 15px; color: #fff;">
-                    NAME: Mu Shuai<br/><br/>
-                    <img style="width: 15px; position:absolute; left:3px; top:28px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                    <img style="width: 20px; position:absolute; left:0px; top:63px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                    <img style="width: 20px; position:absolute; left:0px; top:98px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                    <img style="width: 20px; position:absolute; left:0px; top:133px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                    <div id="contact" style="position: relative; left: 20px; top: -22px; font-size: 15px; line-height: 35px; color: #fff;">
-                    : Supervisor of battery test <br/>
-                    : mush@bbac.com.cn<br/>
-                    : +86-18810707041<br/>
-                    : Beijing Benz Automotive Co.
+https://www.tooplate.com/view/2136-kool-form-pack
+
+Bootstrap 5 Form Pack Template
+
+-->
+    </head>
+    
+    <body>
+
+        <main>
+
+            <header class="site-header">
+                <div class="container">
+                    <div class="row justify-content-between">
+
+                        <div class="col-lg-12 col-12 d-flex">
+                            <a class="site-header-text d-flex justify-content-center align-items-center me-auto" href="index.html">
+                                <i class="bi-box"></i>
+
+                                <span>
+                                    Kool Form Pack
+                                </span>
+                            </a>
+
+                            <ul class="social-icon d-flex justify-content-center align-items-center mx-auto">
+                                <span class="text-white me-4 d-none d-lg-block">Stay connected</span>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                </li>
+                            </ul>
+
+                            <div>
+                                <a href="#" class="custom-btn custom-border-btn btn" data-bs-toggle="modal" data-bs-target="#subscribeModal">Notify me
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+
+                            <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
+
+                        </div>
+
                     </div>
                 </div>
-        <!-----------------------------博哥个人简介------------------------------------->
-            <img style="width:13%; position:absolute; left:250px; top:100px;" src="https://pic.imgdb.cn/item/666bb4acd9c307b7e926835c.png">
-                <div id="contact2" style="position: relative; left: 250px; top: 35px; font-size: 15px; color: #fff;">
-                     NAME: Wang Bo<br/><br/>
-                     <img style="width: 15px; position:absolute; left:3px; top:28px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                     <img style="width: 20px; position:absolute; left:0px; top:63px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                     <img style="width: 20px; position:absolute; left:0px; top:98px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                     <img style="width: 20px; position:absolute; left:0px; top:133px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                     <div id="contact" style="position: relative; left: 20px; top: -22px; font-size: 15px; line-height: 35px; color: #fff;">
-                    : Supervisor of test maintenance <br/>
-                    : wangbo@bbac.com.cn<br/>
-                    : +86-18611418630<br/>
-                    : Beijing Benz Automotive Co.
-                    </div>
+            </header>
+
+
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">                
+                <div class="offcanvas-header">                    
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-        <!-------------------------------悦姐个人简介---------------------------------------->
-            <img style="width:13%; position:absolute; left:720px; top:100px;" src="xxxx">
-                <div id="contact3" style="position: relative; left: 725px; top: -147px; font-size: 20px; color: #fff;">
-                    NAME: Li Yue<br/><br/>
-                    <img style="width: 30px; position:absolute; left:5px; top:40px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                    <img style="width: 40px; position:absolute; left:0px; top:85px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                    <img style="width: 40px; position:absolute; left:0px; top:130px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                    <img style="width: 40px; position:absolute; left:0px; top:175px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                    <div id="contact" style="position: relative; left: 40px; top: 5px; font-size: 20px; color: #fff;">
-                    : Engineer of battery rework <br/><br/>
-                    : liy13@bbac.com.cn<br/><br/>
-                    : +86-13003038421<br/><br/>
-                    : Beijing Benz Automotive Co.
-                    </div>
+                
+                <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a class="active" href="login.html">Login Form</a>
+                            </li>
+
+                            <li>
+                                <a href="register.html">Create an account</a>
+                            </li>
+
+                            <li>
+                                <a href="password-reset.html">Password Reset</a>
+                            </li>
+
+                            <li>
+                                <a href="404.html">404 Page</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html">Contact Form</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                        <!-------------------------------dieter个人简介---------------------------------------->
-            <img style="width:13%; position:absolute; left:1095px; top:100px;" src="xxxx">
-                <div id="contact4" style="position: relative; left: 1100px; top: -259px; font-size: 20px; color: #fff;">
-                    NAME: Dieter Fink<br/><br/>
-                    <img style="width: 30px; position:absolute; left:5px; top:40px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                    <img style="width: 40px; position:absolute; left:0px; top:85px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                    <img style="width: 40px; position:absolute; left:0px; top:130px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                    <img style="width: 40px; position:absolute; left:0px; top:175px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                    <div id="contact" style="position: relative; left: 40px; top: 5px; font-size: 20px; color: #fff;">
-                    : Expert of battery test <br/><br/>
-                    : dieter.d.fink@mercedes-benz.com<br/><br/>
-                    : +49-1608627071<br/><br/>
-                    : Mercedes-Benz AG
-                    </div>
-                </div>
-        <!-------------------------------我是分割线-------------------------------------->
-            <div id="support" style="position: relative; left: 5px; top: -150px; font-size: 30px; color: #181717;">
-                More information
-                <div id="support1" style="position: absolute; left: 0px; top: 80px; font-size: 20px; color: #ffffff;">
-                    UNIPAS Software: Dieter Fink (dieter.d.fink@mercedes-benz.com); Wang Ziyu (Ziyu.WANG@akkodis.com); Markus haiss (markus.haiss@akkodis.com) <br/><br/>
-                    UNIPAS Server: Hou Yanfeng (houyf01@bbac.com.cn); Seven Colombo (sven.colombo@mercedes-benz.com) <br/><br/>
-                    Heinzinger: Michael Walter (michael.walter@heinzinger-auto.com)<br/><br/>
-                    Loccoinoi: Stefano Falappa (s.falappa@loccioni.com)<br/><br/>
             </div>
-        </div>
-    </div>
-</body>
 
+
+            <!-- Modal -->
+            <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <form action="#" method="get" class="custom-form mt-lg-4 mt-2" role="form">
+                                <h2 class="modal-title" id="subscribeModalLabel">Stay up to date</h2>
+
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required="">
+
+                                <button type="submit" class="form-control">Notify</button>
+                            </form>
+                        </div>
+
+                        <div class="modal-footer justify-content-center">
+                            <p>By signing up, you agree to our Privacy Notice</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="hero-section d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 mx-auto">
+                            <form class="custom-form login-form" role="form" method="post">
+                                <h2 class="hero-title text-center mb-4 pb-2">Login Form</h2>
+
+                                <div class="form-floating mb-4 p-0">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
+
+                                    <label for="email">Email address</label>
+                                </div>
+
+                                <div class="form-floating p-0">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="">
+
+                                    <label for="password">Password</label>
+                                </div>
+
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Remember me
+                                    </label>
+                                </div>
+
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-lg-5 col-12">
+                                        <button type="submit" class="form-control">Login</button>
+                                    </div>
+
+                                    <div class="col-lg-5 col-12">
+                                        <a href="register.html" class="btn custom-btn custom-border-btn">Register</a>
+                                    </div>
+                                </div>
+
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src="videos/video.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+        </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/init.js"></script>
+
+    </body>
 </html>
