@@ -99,7 +99,7 @@ Bootstrap 5 Form Pack Template
                     <div class="row">
 <!----------------------------------------------分割线---------------------------------------->
                         <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form login-form" role="form" method="post" action="main.html" onsubmit="return checkUserCredentials()">
+                            <form class="custom-form login-form" role="form" method="post" action="main.html" onsubmit="return checkUser()">
                                 <h2 class="hero-title text-center mb-4 pb-2">Login Form</h2>
                                 <div class="form-floating mb-4 p-0">
                                     <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" value="">
@@ -134,10 +134,10 @@ Bootstrap 5 Form Pack Template
         <!-- JAVASCRIPT FILES -->
         <script type="text/javascript">
             function getValue(id) {
-                return document.getElementById(id).value.trim(); // 使用 trim() 去除输入内容两端的空白字符
+                return document.getElementById(id).value.trim();
             }
         
-            function checkUserCredentials() {
+            function checkUser() {
                 var email = getValue('email');
                 var password = getValue('password');
         
