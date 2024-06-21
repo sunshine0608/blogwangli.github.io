@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Xiaoli-wang | Login page</title>
+        <title>xiaoli-wang | Login page</title>
 
         <!-- CSS FILES -->                
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,15 @@
         <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="assets/css/tooplate-kool-form-pack.css" rel="stylesheet">
+<!--
 
+Tooplate 2136 Kool Form Pack
+
+https://www.tooplate.com/view/2136-kool-form-pack
+
+Bootstrap 5 Form Pack Template
+
+-->
     </head>
     
     <body>
@@ -87,12 +95,28 @@
             </div>
 
 
+        <!-- JAVASCRIPT FILES -->
+        <script type="text/javascript"> 
+            function getValue(id) { 
+                return document.getElementById(id).value; 
+                // 查找元素
+            } 
+            function checkuser() { 
+                if(getValue('email') == "wangxl06@bbac.com.cn" && getValue('password') == "Welcome01!") { 
+                    return true; 
+                }else { 
+                    alert("登录名或密码错误！")
+                    // 警告框
+                    return false; 
+                } 
+            } 
+        </script>
             <section class="hero-section d-flex justify-content-center align-items-center">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form login-form" role="form" method="post" action="main">
+                            <form class="custom-form login-form" role="form" method="post" action="main.html">
                                 <h2 class="hero-title text-center mb-4 pb-2">Login Form</h2>
                                 <div class="form-floating mb-4 p-0">
                                     <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
@@ -116,7 +140,7 @@
 
                                 <div class="row justify-content-center align-items-center">
                                     <div class="col-lg-5 col-12">
-                                        <button type="submit" class="form-control">Login</button>
+                                        <button type="submit" class="form-control" onclick="return checkuser()">Login</button>
                                     </div>
 
                                 </div>
@@ -135,23 +159,6 @@
                 </div>
             </section>
         </main>
-
-        <!-- JAVASCRIPT FILES -->
-        <script type="text/javascript"> 
-            function getValue(id) { 
-                return document.getElementById(id).value; 
-                // 查找元素
-            } 
-            function checkuser() { 
-                if(getValue('email') == "wangxl06@bbac.com.cn" && getValue('password') == "Welcome01!") { 
-                    return true; 
-                }else { 
-                    alert("登录名或密码错误！")
-                    // 警告框
-                    return false; 
-                } 
-            } 
-        </script> 
 
     </body>
 </html>
