@@ -99,20 +99,21 @@ Bootstrap 5 Form Pack Template
                     <div class="row">
 <!----------------------------------------------分割线---------------------------------------->
                         <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form login-form" role="form" method="post" action="main.html" onsubmit="return checkUser()">
+                            <form class="custom-form login-form" role="form" method="post" action="main.html">
                                 <h2 class="hero-title text-center mb-4 pb-2">Login Form</h2>
                                 <div class="form-floating mb-4 p-0">
-                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" value="">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" value=""/>
                                     <label for="email">Email address</label>
                                 </div>
                         
                                 <div class="form-floating p-0">
-                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" value="">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" value=""/>
                                     <label for="password">Password</label>
                                 </div>
                         
                                 <div class="row justify-content-center align-items-center">
                                     <div class="col-lg-5 col-12">
+                                        <input type="submit" id="but" value="登录" onclick="return checkUser()"/> 
                                         <button type="submit" class="form-control">Login</button>
                                     </div>
                                 </div>
