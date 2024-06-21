@@ -83,7 +83,6 @@ Bootstrap 5 Form Pack Template
 
                                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required="">
 
-                                <button type="submit" class="form-control">Notify</button>
                             </form>
                         </div>
 
@@ -95,22 +94,6 @@ Bootstrap 5 Form Pack Template
             </div>
 
 
-        <!-- JAVASCRIPT FILES -->
-        <script type="text/javascript"> 
-            function getValue(id) { 
-                return document.getElementById(id).value; 
-                // 查找元素
-            } 
-            function checkuser() { 
-                if(getValue('email') == "wangxl06@bbac.com.cn" && getValue('password') == "Welcome01!") { 
-                    return true; 
-                }else { 
-                    alert("登录名或密码错误！")
-                    // 警告框
-                    return false; 
-                } 
-            } 
-        </script>
             <section class="hero-section d-flex justify-content-center align-items-center">
                 <div class="container">
                     <div class="row">
@@ -159,6 +142,22 @@ Bootstrap 5 Form Pack Template
                 </div>
             </section>
         </main>
+        <!-- JAVASCRIPT FILES -->
+        <script type="text/javascript"> 
+            function getValue(id) { 
+                return document.getElementById(id).value; 
+                // 查找元素
+            } 
+            function checkuser() { 
+                if(getValue('email') == "wangxl06@bbac.com.cn" && getValue('password') == "Welcome01!") { 
+                    window.location.href = "main.html"; 
+                }else { 
+                    alert("登录名或密码错误！")
+                    // 警告框
+                    return false; 
+                } 
+            }
+        </script>
 
     </body>
 </html>
