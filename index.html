@@ -85,11 +85,28 @@
                 </div>
             </div>
 
-
+        <!-- JAVASCRIPT FILES -->
+        <script type="text/javascript">
+            function getValue(id) {
+                return document.getElementById(id).value.trim();
+            }
+        
+            function checkUser() {
+                var email = getValue('email');
+                var password = getValue('password');
+        
+                if (email === "wangxl06@bbac.com.cn" && password === "Welcome01!") {
+                    return true;  // 允许表单提交到 action="main.html"
+                } else {
+                    alert("Invalid email or password!");
+                    return false; // 阻止表单提交
+                }
+            }
+        </script>
+<!----------------------------------------------分割线---------------------------------------->
             <section class="hero-section d-flex justify-content-center align-items-center">
                 <div class="container">
                     <div class="row">
-<!----------------------------------------------分割线---------------------------------------->
                         <div class="col-lg-5 col-12 mx-auto">
                             <form class="custom-form login-form" role="form" method="post" action="main">
                                 <h2 class="hero-title text-center mb-4 pb-2">Login Form</h2>
@@ -123,24 +140,7 @@
                 </div>
             </section>
         </main>
-        <!-- JAVASCRIPT FILES -->
-        <script type="text/javascript">
-            function getValue(id) {
-                return document.getElementById(id).value.trim();
-            }
-        
-            function checkUser() {
-                var email = getValue('email');
-                var password = getValue('password');
-        
-                if (email === "wangxl06@bbac.com.cn" && password === "Welcome01!") {
-                    return true;  // 允许表单提交到 action="main.html"
-                } else {
-                    alert("Invalid email or password!");
-                    return false; // 阻止表单提交
-                }
-            }
-        </script>
+
 
     </body>
 </html>
