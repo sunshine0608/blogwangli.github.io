@@ -64,7 +64,8 @@
         }
         .s-container {
             width: 1000px;
-            left: 30%;
+            margin-left: 30%; /* Adjusted from left: 30%; to margin-left */
+            position: relative; /* Added relative positioning */
         }
         .s-title{
             display: inline-block;
@@ -86,6 +87,11 @@
             font-family: "MBCorpo Text";
             max-width: 500px;
             line-height: 50px;
+        }
+        #container{
+            background: linear-gradient(to left, rgb(0, 0, 0, 0.7), rgba(58, 90, 137, 0.5));
+            height: 1100px;
+            position: relative;
         }
         img {
             transition: filter 0.5s;
@@ -135,81 +141,79 @@
     </div>
 </div>
 <!-----------------------------------我是分割线------------------------------>
-    <div style="margin:0; padding:0;">
-        <div id="container" style="background:linear-gradient(to left, rgb(0, 0, 0, 0.7), rgba(58, 90, 137, 0.5)); height: 1100px;">
-            <div id="contact" style="position: relative; left: 50px; top: 40px; font-size: 30px; color: #000000;">
-                Technical Contact
-            <!-----------------------------穆老师个人简介------------------------------------->
-                <img class=img style="width:13%; position:absolute; left:10px; top:100px;" src="https://pic.imgdb.cn/item/666ab3d3d9c307b7e967a1dc.png">
-                    <div id="contact1" style="position: relative; left: 15px; top: 220px; font-size: 15px; color: #fff;">
-                        NAME: Mu Shuai<br/><br/>
-                        <img style="width: 15px; position:absolute; left:3px; top:28px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                        <img style="width: 20px; position:absolute; left:0px; top:63px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                        <img style="width: 20px; position:absolute; left:0px; top:98px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                        <img style="width: 20px; position:absolute; left:0px; top:133px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                        <div id="contact" style="position: relative; left: 20px; top: -22px; font-size: 15px; line-height: 35px; color: #fff;">
-                        : Supervisor of battery test <br/>
-                        : mush@bbac.com.cn<br/>
-                        : +86-18810707041<br/>
-                        : Beijing Benz Automotive Co.
-                        </div>
+    <div id="container">
+        <div id="contact" style="position: relative; left: 50px; top: 40px; font-size: 30px; color: #000000;">
+            Technical Contact
+        <!-----------------------------穆老师个人简介------------------------------------->
+            <img class=img style="width:13%; position:absolute; left:10px; top:100px;" src="https://pic.imgdb.cn/item/666ab3d3d9c307b7e967a1dc.png">
+                <div id="contact1" style="position: relative; left: 15px; top: 220px; font-size: 15px; color: #fff;">
+                    NAME: Mu Shuai<br/><br/>
+                    <img style="width: 15px; position:absolute; left:3px; top:28px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
+                    <img style="width: 20px; position:absolute; left:0px; top:63px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
+                    <img style="width: 20px; position:absolute; left:0px; top:98px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
+                    <img style="width: 20px; position:absolute; left:0px; top:133px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
+                    <div id="contact" style="position: relative; left: 20px; top: -22px; font-size: 15px; line-height: 35px; color: #fff;">
+                    : Supervisor of battery test <br/>
+                    : mush@bbac.com.cn<br/>
+                    : +86-18810707041<br/>
+                    : Beijing Benz Automotive Co.
                     </div>
-            <!-----------------------------博哥个人简介------------------------------------->
-                <img style="width:13%; position:absolute; left:250px; top:100px;" src="https://pic.imgdb.cn/item/666bb4acd9c307b7e926835c.png">
-                    <div id="contact2" style="position: relative; left: 250px; top: 35px; font-size: 15px; color: #fff;">
-                         NAME: Wang Bo<br/><br/>
-                         <img style="width: 15px; position:absolute; left:3px; top:28px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                         <img style="width: 20px; position:absolute; left:0px; top:63px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                         <img style="width: 20px; position:absolute; left:0px; top:98px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                         <img style="width: 20px; position:absolute; left:0px; top:133px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                         <div id="contact" style="position: relative; left: 20px; top: -22px; font-size: 15px; line-height: 35px; color: #fff;">
-                        : Supervisor of test maintenance <br/>
-                        : wangbo@bbac.com.cn<br/>
-                        : +86-18611418630<br/>
-                        : Beijing Benz Automotive Co.
-                        </div>
-                    </div>
-            <!-------------------------------悦姐个人简介---------------------------------------->
-                <img style="width:13%; position:absolute; left:720px; top:100px;" src="xxxx">
-                    <div id="contact3" style="position: relative; left: 725px; top: -147px; font-size: 20px; color: #fff;">
-                        NAME: Li Yue<br/><br/>
-                        <img style="width: 30px; position:absolute; left:5px; top:40px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                        <img style="width: 40px; position:absolute; left:0px; top:85px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                        <img style="width: 40px; position:absolute; left:0px; top:130px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                        <img style="width: 40px; position:absolute; left:0px; top:175px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                        <div id="contact" style="position: relative; left: 40px; top: 5px; font-size: 20px; color: #fff;">
-                        : Engineer of battery rework <br/><br/>
-                        : liy13@bbac.com.cn<br/><br/>
-                        : +86-13003038421<br/><br/>
-                        : Beijing Benz Automotive Co.
-                        </div>
-                    </div>
-                            <!-------------------------------dieter个人简介---------------------------------------->
-                <img style="width:13%; position:absolute; left:1095px; top:100px;" src="xxxx">
-                    <div id="contact4" style="position: relative; left: 1100px; top: -259px; font-size: 20px; color: #fff;">
-                        NAME: Dieter Fink<br/><br/>
-                        <img style="width: 30px; position:absolute; left:5px; top:40px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
-                        <img style="width: 40px; position:absolute; left:0px; top:85px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
-                        <img style="width: 40px; position:absolute; left:0px; top:130px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
-                        <img style="width: 40px; position:absolute; left:0px; top:175px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
-                        <div id="contact" style="position: relative; left: 40px; top: 5px; font-size: 20px; color: #fff;">
-                        : Expert of battery test <br/><br/>
-                        : dieter.d.fink@mercedes-benz.com<br/><br/>
-                        : +49-1608627071<br/><br/>
-                        : Mercedes-Benz AG
-                        </div>
-                    </div>
-            <!-------------------------------我是分割线-------------------------------------->
-                <div id="support" style="position: relative; left: 5px; top: -150px; font-size: 30px; color: #181717;">
-                    More information
-                    <div id="support1" style="position: absolute; left: 0px; top: 80px; font-size: 20px; color: #ffffff;">
-                        UNIPAS Software: Dieter Fink (dieter.d.fink@mercedes-benz.com); Wang Ziyu (Ziyu.WANG@akkodis.com); Markus haiss (markus.haiss@akkodis.com) <br/><br/>
-                        UNIPAS Server: Hou Yanfeng (houyf01@bbac.com.cn); Seven Colombo (sven.colombo@mercedes-benz.com) <br/><br/>
-                        Heinzinger: Michael Walter (michael.walter@heinzinger-auto.com)<br/><br/>
-                        Loccoinoi: Stefano Falappa (s.falappa@loccioni.com)<br/><br/>
                 </div>
+        <!-----------------------------博哥个人简介------------------------------------->
+            <img style="width:13%; position:absolute; left:250px; top:100px;" src="https://pic.imgdb.cn/item/666bb4acd9c307b7e926835c.png">
+                <div id="contact2" style="position: relative; left: 250px; top: 35px; font-size: 15px; color: #fff;">
+                     NAME: Wang Bo<br/><br/>
+                     <img style="width: 15px; position:absolute; left:3px; top:28px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
+                     <img style="width: 20px; position:absolute; left:0px; top:63px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
+                     <img style="width: 20px; position:absolute; left:0px; top:98px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
+                     <img style="width: 20px; position:absolute; left:0px; top:133px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
+                     <div id="contact" style="position: relative; left: 20px; top: -22px; font-size: 15px; line-height: 35px; color: #fff;">
+                    : Supervisor of test maintenance <br/>
+                    : wangbo@bbac.com.cn<br/>
+                    : +86-18611418630<br/>
+                    : Beijing Benz Automotive Co.
+                    </div>
+                </div>
+        <!-------------------------------悦姐个人简介---------------------------------------->
+            <img style="width:13%; position:absolute; left:720px; top:100px;" src="xxxx">
+                <div id="contact3" style="position: relative; left: 725px; top: -147px; font-size: 20px; color: #fff;">
+                    NAME: Li Yue<br/><br/>
+                    <img style="width: 30px; position:absolute; left:5px; top:40px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
+                    <img style="width: 40px; position:absolute; left:0px; top:85px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
+                    <img style="width: 40px; position:absolute; left:0px; top:130px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
+                    <img style="width: 40px; position:absolute; left:0px; top:175px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
+                    <div id="contact" style="position: relative; left: 40px; top: 5px; font-size: 20px; color: #fff;">
+                    : Engineer of battery rework <br/><br/>
+                    : liy13@bbac.com.cn<br/><br/>
+                    : +86-13003038421<br/><br/>
+                    : Beijing Benz Automotive Co.
+                    </div>
+                </div>
+                        <!-------------------------------dieter个人简介---------------------------------------->
+            <img style="width:13%; position:absolute; left:1095px; top:100px;" src="xxxx">
+                <div id="contact4" style="position: relative; left: 1100px; top: -259px; font-size: 20px; color: #fff;">
+                    NAME: Dieter Fink<br/><br/>
+                    <img style="width: 30px; position:absolute; left:5px; top:40px;" src="https://pic.imgdb.cn/item/666ba189d9c307b7e905beab.png">
+                    <img style="width: 40px; position:absolute; left:0px; top:85px;" src="https://pic.imgdb.cn/item/666ba2dbd9c307b7e907dcf3.png">
+                    <img style="width: 40px; position:absolute; left:0px; top:130px;" src="https://pic.imgdb.cn/item/666ba2f1d9c307b7e907fb87.png">
+                    <img style="width: 40px; position:absolute; left:0px; top:175px;" src="https://pic.imgdb.cn/item/666ba30ad9c307b7e90820d4.png">
+                    <div id="contact" style="position: relative; left: 40px; top: 5px; font-size: 20px; color: #fff;">
+                    : Expert of battery test <br/><br/>
+                    : dieter.d.fink@mercedes-benz.com<br/><br/>
+                    : +49-1608627071<br/><br/>
+                    : Mercedes-Benz AG
+                    </div>
+                </div>
+        <!-------------------------------我是分割线-------------------------------------->
+            <div id="support" style="position: relative; left: 5px; top: -150px; font-size: 30px; color: #181717;">
+                More information
+                <div id="support1" style="position: absolute; left: 0px; top: 80px; font-size: 20px; color: #ffffff;">
+                    UNIPAS Software: Dieter Fink (dieter.d.fink@mercedes-benz.com); Wang Ziyu (Ziyu.WANG@akkodis.com); Markus haiss (markus.haiss@akkodis.com) <br/><br/>
+                    UNIPAS Server: Hou Yanfeng (houyf01@bbac.com.cn); Seven Colombo (sven.colombo@mercedes-benz.com) <br/><br/>
+                    Heinzinger: Michael Walter (michael.walter@heinzinger-auto.com)<br/><br/>
+                    Loccoinoi: Stefano Falappa (s.falappa@loccioni.com)<br/><br/>
             </div>
         </div>
     </div>
-  </body>
+</body>
 </html>
