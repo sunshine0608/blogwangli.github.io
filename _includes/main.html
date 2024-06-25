@@ -63,9 +63,10 @@
             font-size: 10px;
         }
         .s-container {
-            width: 1000px;
-            margin-left: 5%; /* Adjusted from left: 30%; to margin-left */
-            position: relative; /* Added relative positioning */
+            width: 100%; /* Adjusted width to full width */
+            max-width: 1000px; /* Added max-width for better responsiveness */
+            margin-left: 5%; /* Center align s-container */
+            padding: 20px; /* Added padding for spacing */
         }
         .s-title{
             display: inline-block;
@@ -130,15 +131,15 @@
 </head>
 <!--------------------------正文--------------------------------->
 <body>
-<div class="s-container">
-    <div class="s-title">
-        <div id="A1">This is a website to share professional knowledges of battery test.
-        </div>
-        <div class="content">
-          <p>Please fill the content here</p>
+    <div class="s-container">
+        <div class="s-title">
+            <div id="A1">This is a website to share professional knowledges of battery test.
+            </div>
+            <div class="content">
+              <p>Please fill the content here</p>
+            </div>
         </div>
     </div>
-</div>
 <!-----------------------------------我是分割线------------------------------>
     <div id="container">
         <div id="contact" style="position: relative; left: 50px; top: 40px; font-size: 30px; color: #000000;">
