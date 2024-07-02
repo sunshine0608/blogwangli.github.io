@@ -19,3 +19,10 @@ css: ["whisper.css"]
     根本原因：使用RPV.RUN程序手动设置电池进入run模式，查看CANoe界面电池信息是否正常.<br>
     长期措施：BMS系统中出现0c7800和293100的报错，发现电池无法闭合继电器。更换IMD后返线.</p>
 </dd>
+<dt><em><b>UNIPAS, Error on plug 3
+Aulos: low coolant flow, code, A 0593 </b></em></dt><dd><p>
+    问题：否<br>
+    短期措施：清理冷却管路，内循环清理，无法彻底解决问题.<br>
+    根本原因：冷却水脏.<br>
+    长期措施：定期清洁.</p>
+</dd>
